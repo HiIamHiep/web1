@@ -60,6 +60,10 @@ html{
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 /* Main */
 #main {
 
@@ -323,6 +327,7 @@ html{
     display: inline-block;
     margin-top: 15px;
     border: none;
+    text-align: center;
 }
 .btn:hover {
     color: #000;
@@ -485,6 +490,7 @@ html{
 /* Footer IMG */
 .map-section img{
     width: 100%;
+    margin-top: 64px;
 }
 
 
