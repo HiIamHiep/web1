@@ -175,7 +175,7 @@ html{
 #slider {
     margin-top: 46px;
     padding-top: 50% ;
-    background: url('../img/HoiHD.jpg')  center / cover no-repeat;
+    background: url('/assets/img/HoiHD.jpg')  center / cover no-repeat;
     position: relative;
 }
 
@@ -190,13 +190,11 @@ html{
 #slider .text-heading {
     font-weight: 500;
     font-size: 24px;
-    text-shadow: 0 0 1px #000;
+    
 }
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
-    text-shadow:0 0 1px #000;
-    
 }
 
 #content {
@@ -330,8 +328,6 @@ html{
     margin-top: 15px;
     border: none;
     text-align: center;
-    appearance: none;
-    -webkit-appearance: none;
 }
 .btn:hover {
     color: #000;
@@ -353,15 +349,6 @@ html{
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
-}
-
-.contact-info a {
-    color: #101aef;
-    opacity: 0.8;
-}
-
-.contact-info a:hover {
-    opacity: 1;
 }
 
 .contact-form {
